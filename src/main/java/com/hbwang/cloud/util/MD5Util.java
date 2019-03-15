@@ -63,6 +63,7 @@ public class MD5Util {
         return resultString;
     }
 
+
     public static byte[] MD5Bytes(String strObj) {
         byte[] date;
         date = md.digest(strObj.getBytes());
